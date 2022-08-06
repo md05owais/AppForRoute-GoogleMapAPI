@@ -1,0 +1,10 @@
+.Navbar {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 12vh;
+}
+.imageContainer {
+  position: fixed;
+  left: 5%;
+  top: 1%;
+}

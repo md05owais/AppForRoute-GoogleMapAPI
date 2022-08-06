@@ -1,0 +1,140 @@
+.body {
+  width: 100%;
+  height: 85vh;
+  background-color: #e5e5e5;
+  position: relative;
+  background-attachment: fixed;
+}
+.title {
+  color: #1b31a8;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  top: 3%;
+}
+.mainFunction {
+  position: relative;
+  top: 5%;
+  /* left: -7%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputField {
+  width: 50%;
+  height: 75vh;
+  position: relative;
+  left: -8%;
+}
+.googleMap {
+  width: 50%;
+  height: 70vh;
+  position: relative;
+  right: 5%;
+}
+.input {
+  width: 30%;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #e9eef2;
+  border-radius: 4px;
+  /* padding: 0 0 0 1%; */
+  position: relative;
+  left: 32%;
+  display: flex;
+  justify-content: center;
+}
+.input input {
+  width: 13vw;
+  height: 96.5%;
+  background: #ffffff;
+  border: 0px solid white;
+  border-radius: 4px;
+  position: relative;
+  left: 6%;
+  color: #4d6475;
+}
+.placeholderValue {
+  text-align: left;
+  position: relative;
+  left: 32.5%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+button {
+  position: relative;
+  top: 1%;
+  width: 141px;
+  height: 62px;
+  left: 35%;
+  background: #1b31a8;
+  border-radius: 32px;
+  color: #ffffff;
+}
+
+.distance {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 55%;
+  height: 30%;
+  margin-top: 5%;
+  position: relative;
+  left: 32%;
+}
+.calculateDist {
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.distanceOriginDest {
+  height: 50%;
+  background: #f4f8fa;
+  border-radius: 0px 0px 8px 8px;
+}
+.distanceOriginDest .p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #1e2a32;
+  position: relative;
+  top: 35%;
+}
+
+.nameDist {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #1e2a32;
+}
+.distVal {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #0079ff;
+}
+
+.Image {
+  width: 24px;
+  height: 27px;
+  position: relative;
+  top: 17%;
+  left: 3%;
+}
